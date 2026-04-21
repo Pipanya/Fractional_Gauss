@@ -37,7 +37,7 @@ public:
 	}
 
 	friend std::fstream& operator>>(std::fstream& fs, const Fraction& f) {
-		fs >> 
+
 	}
 
 	Fraction operator+(const Fraction& other) const {
